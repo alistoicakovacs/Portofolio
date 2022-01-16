@@ -8,10 +8,10 @@ section {
 }
 
 .hero {
-  background-image: url("../images/profilepic.jpg");
+  background-image: url(/images/profilepic.JPG);
   background-size: cover;
   background-position: center center;
-/* background-color: #2d2e38; */
+  /* background-color: #2d2e38; */
   height: 100vh;
   color: white;
   font-size: 22px;
