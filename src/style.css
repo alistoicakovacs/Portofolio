@@ -8,7 +8,7 @@ section {
 }
 
 .hero {
-  background-image: url(/images/profilepic.JPG);
+  background-image: http://alistoicakovacs.github.io/alistoicakvsporto/images/profilepic.jpg;
 /* background-color: #2d2e38; */
   height: 100vh;
   color: white;
