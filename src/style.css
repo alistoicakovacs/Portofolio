@@ -10,7 +10,8 @@ section {
 .hero {
   background: url("../images/profilepic.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: center;
+  background-repeat: no-repeat;
   /* background-color: #2d2e38; */
   height: 100vh;
   color: white;
