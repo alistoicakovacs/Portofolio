@@ -18,6 +18,10 @@ section {
   font-size: 22px;
 }
 
+.information {
+  padding: 10px;
+}
+
 footer {
   background-color: #3a3b46;
   color: white;
