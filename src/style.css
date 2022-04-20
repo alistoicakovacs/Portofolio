@@ -20,6 +20,7 @@ section {
 
 .information {
   padding: 10px;
+  max-width: 50%;
 }
 
 footer {
@@ -205,6 +206,7 @@ a {
     background-color: #3a3b46;
     margin: 0px;
   }
+
   ul.show {
     display: block;
   }
@@ -222,6 +224,10 @@ a {
 
   .logo {
     display: none;
+  }
+
+  .information {
+    max-width: 100%;
   }
 }
 
