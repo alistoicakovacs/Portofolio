@@ -23,7 +23,11 @@ section {
 	max-width: 50%;
 }
 
-footer {
+#contact-me {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 	background-color: #3a3b46;
 	color: white;
 	text-align: center;
@@ -90,10 +94,12 @@ p {
 	margin-bottom: 200px;
 }
 
-/* .button {
-	border-radius: 50px;
+.button {
+	border-radius: 20px;
 	background-color: coral;
-} */
+	width: fit-content;
+	padding: 10px 20px;
+}
 
 .subscribe {
 	font-size: 20px;
