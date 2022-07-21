@@ -75,6 +75,8 @@ p {
 }
 
 .subtext {
+	display: flex;
+	flex-direction: column;
 	font-size: 15px;
 	font-weight: 300;
 	padding: 5px;
@@ -155,7 +157,7 @@ p {
 	margin: 10px;
 	width: 300px;
 	height: 470px;
-
+	border-radius: 10px;
 	box-shadow: 5px 5px 20px rgb(196, 196, 196);
 }
 
@@ -240,6 +242,10 @@ a {
 
 	.information {
 		max-width: 100%;
+		overflow: hidden;
+		-webkit-line-clamp: 3;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
 	}
 }
 
@@ -253,4 +259,19 @@ a {
 	text-align: center;
 	padding-top: 5px;
 	margin-top: 20px;
+}
+
+/* .about-me-text {
+	overflow: hidden;
+	-webkit-line-clamp: 4;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+} */
+
+.button-info {
+	background: none;
+	border: none;
+	border-bottom: 1px solid black;
+	color: #3a3b46;
+	padding-top: 15px;
 }
