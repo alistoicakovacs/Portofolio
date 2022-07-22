@@ -160,11 +160,6 @@ p {
 	align-items: center;
 }
 
-.logo {
-	height: 80px;
-	margin: 10px;
-}
-
 .social {
 	margin: 20px;
 }
@@ -397,21 +392,36 @@ a {
 	display: flex;
 	justify-content: center;
 	align-content: center;
+	flex-direction: column;
 	padding: 10px;
 	background-color: #3a3b46;
 }
 
 .information-page h2 {
 	font-size: 4vh;
+	font-weight: 800;
 	padding: 10px;
 	color: white;
 	background-color: #3a3b46;
+	text-shadow: 0.5px 0.5px 20px black;
 }
 
 .text-page {
 	background-color: #3a3b46;
 	font-family: "Poppins";
-	font-size: 15px;
+	font-size: 16px;
 	padding: 10px;
 	color: white;
+}
+
+.button-aboutme-page {
+	background: #ce2e3a;
+	border: none;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	width: fit-content;
+	border-radius: 12px;
+	box-shadow: 4px 4px 30px black;
+	align-self: flex-start;
 }
