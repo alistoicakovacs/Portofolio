@@ -61,7 +61,7 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 6vh;
 }
 
 p {
@@ -256,6 +256,7 @@ a {
     -webkit-line-clamp: 3;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    margin-top: 10px;
   }
 
   .socials {
@@ -268,6 +269,32 @@ a {
 
   .hero-subtitle {
     font-size: 3vh;
+  }
+
+  .project-card {
+    height: 200px;
+    width: 150px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .subtext {
+    font-size: 10px;
+  }
+
+  .project-image {
+    display: none;
+  }
+
+  footer p {
+    font-size: 10px;
+    margin-bottom: 10px;
   }
 }
 
