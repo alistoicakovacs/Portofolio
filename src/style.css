@@ -285,7 +285,7 @@ a {
   }
 
   .information {
-    max-width: 75%;
+    max-width: 100%;
     overflow: auto;
     -webkit-line-clamp: 3;
     display: -webkit-box;
