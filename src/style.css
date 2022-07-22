@@ -246,6 +246,7 @@ a {
     background-color: transparent;
     margin-left: 10px;
     font-size: 20px;
+    width: 100%;
   }
 
   .information {
