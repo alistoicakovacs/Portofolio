@@ -16,6 +16,7 @@ section {
   height: 100vh;
   color: white;
   font-size: 22px;
+  display: flex;
 }
 
 .information {
@@ -215,7 +216,7 @@ a {
     color: white;
     font-size: 30px;
     margin: 20px;
-    align-self: flex-end;
+    align-self: flex-start;
   }
 
   ul {
@@ -244,11 +245,15 @@ a {
   }
 
   .information {
-    max-width: 100%;
-    overflow: hidden;
+    max-width: 75%;
+    overflow: auto;
     -webkit-line-clamp: 3;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+  }
+
+  .socials {
+    font-size: smaller;
   }
 }
 
