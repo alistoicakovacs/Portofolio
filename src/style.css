@@ -388,3 +388,30 @@ a {
 	background-color: #3a3b46;
 	color: white;
 }
+
+.aboutme-page-body {
+	background-color: #3a3b46;
+}
+
+.about-me-page {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 10px;
+	background-color: #3a3b46;
+}
+
+.information-page h2 {
+	font-size: 4vh;
+	padding: 10px;
+	color: white;
+	background-color: #3a3b46;
+}
+
+.text-page {
+	background-color: #3a3b46;
+	font-family: "Poppins";
+	font-size: 15px;
+	padding: 10px;
+	color: white;
+}
