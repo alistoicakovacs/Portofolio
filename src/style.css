@@ -367,3 +367,8 @@ a {
 .dividingLine {
   margin: 0 40%;
 }
+
+#about-me {
+  background-color: #3a3b46;
+  color: white;
+}
