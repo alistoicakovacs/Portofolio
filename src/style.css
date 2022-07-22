@@ -31,11 +31,13 @@ section {
 
 .information h2 {
   margin: 30px 0;
+  text-shadow: 0.5px 0.5px 1px black;
 }
 
 .information-photo img {
   width: 400px;
-  border-radius: 10px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 20px black;
 }
 
 .information-photo {
@@ -290,6 +292,9 @@ a {
     margin-top: 10px;
   }
 
+  .information-photo img {
+    display: none;
+  }
   .socials {
     font-size: smaller;
   }
