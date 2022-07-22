@@ -131,12 +131,15 @@ p {
   background-color: coral;
   width: fit-content;
   padding: 10px 20px;
+  box-shadow: 1px 1px 12px black;
+  margin-top: 20px;
 }
 
 .subscribe {
   font-size: 20px;
   align-items: center;
   text-align: center;
+  box-shadow: 1px 1px 12px black;
 }
 
 /* 
