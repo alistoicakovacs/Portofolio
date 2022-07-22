@@ -36,8 +36,10 @@ section {
 
 .information-photo img {
 	width: 400px;
+	margin-top: -30px;
 	border-radius: 50%;
 	box-shadow: 5px 5px 20px black;
+	position: absolute;
 }
 
 .information-photo {
@@ -364,18 +366,18 @@ a {
 }
 
 .about-me-text {
-	overflow: auto;
-	-webkit-line-clamp: 15;
-	display: -webkit-box;
-	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 150px;
 }
 
 .button-info {
-	background: none;
+	background: #ce2e3a;
 	border: none;
-	border-bottom: 1px solid black;
-	color: #3a3b46;
-	padding-top: 15px;
+	color: white;
+	padding: 10px;
+	border-radius: 12px;
+	box-shadow: 4px 4px 30px black;
 }
 
 .dividingLine {
