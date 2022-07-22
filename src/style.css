@@ -364,6 +364,7 @@ a {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	height: 150px;
+	margin-bottom: 40px;
 }
 
 .button-info {
