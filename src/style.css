@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
@@ -50,7 +56,7 @@ li {
 }
 
 h1 {
-  font-size: 6vh;
+  font-size: 7vh;
   margin: 0;
 }
 
@@ -233,6 +239,7 @@ a {
     display: flex;
     background-color: transparent;
     justify-content: space-between;
+    padding: 20px 0;
   }
 
   #nav-list {
@@ -253,6 +260,14 @@ a {
 
   .socials {
     font-size: smaller;
+  }
+
+  h1 {
+    font-size: 5vh;
+  }
+
+  .hero-subtitle {
+    font-size: 3vh;
   }
 }
 
