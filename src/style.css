@@ -60,13 +60,12 @@ section {
 
 ul {
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-end;
 	gap: 40px;
 	margin-left: 40px;
 	padding-top: 20px;
-	/* justify-content: space-around; */
+	padding-right: 30px;
 	list-style-type: none;
-	width: 500px;
 	font-size: 3vh;
 }
 
