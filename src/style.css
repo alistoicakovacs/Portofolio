@@ -40,6 +40,7 @@ section {
   align-items: center;
   background-color: #3a3b46;
   color: white;
+  text-shadow: 2px 2px 10px black;
   text-align: center;
   padding: 50px;
 }
@@ -175,7 +176,8 @@ p {
   width: 300px;
   height: 400px;
   border-radius: 10px;
-  box-shadow: 5px 5px 20px rgb(196, 196, 196);
+  box-shadow: 5px 5px 20px black;
+  background-color: white;
 }
 
 .project-container {
@@ -185,6 +187,12 @@ p {
 
 #projects h2 {
   margin-bottom: 50px;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+#projects {
+  background-color: #3a3b46;
 }
 @media only screen and (max-width: 1000px) {
   .project-container {
@@ -292,10 +300,12 @@ a {
 
   h3 {
     font-size: 15px;
+    color: black;
   }
 
   .subtext {
     font-size: 10px;
+    color: black;
   }
 
   .project-image {
