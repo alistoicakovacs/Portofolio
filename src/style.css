@@ -340,6 +340,18 @@ a {
   }
 }
 
+@media only screen and (min-width: 160px) {
+  .project-container {
+    grid-template-columns: auto;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .project-container {
+    grid-template-columns: auto auto;
+  }
+}
+
 .centeredButton {
   width: 200px;
   height: 55px;
