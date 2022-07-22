@@ -60,7 +60,7 @@ h1 {
   margin: 0;
 }
 
-h2 {
+nav {
   font-size: 6vh;
 }
 
@@ -244,10 +244,8 @@ a {
 
   #nav-list {
     background-color: transparent;
-  }
-
-  .logo {
-    display: none;
+    margin-left: 10px;
+    font-size: 20px;
   }
 
   .information {
