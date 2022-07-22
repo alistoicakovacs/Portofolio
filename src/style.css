@@ -25,8 +25,12 @@ section {
 }
 
 .information {
-  padding: 10px;
+  padding: 50px 10px;
   max-width: 50%;
+}
+
+.information h2 {
+  margin: 30px 0;
 }
 
 #contact-me {
@@ -179,6 +183,9 @@ p {
   justify-content: space-around;
 }
 
+#projects h2 {
+  margin-bottom: 50px;
+}
 @media only screen and (max-width: 1000px) {
   .project-container {
     display: grid;
@@ -326,4 +333,8 @@ a {
   border-bottom: 1px solid black;
   color: #3a3b46;
   padding-top: 15px;
+}
+
+.dividingLine {
+  margin: 0 40%;
 }
