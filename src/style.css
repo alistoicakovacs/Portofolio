@@ -25,7 +25,7 @@ section {
 }
 
 .information {
-	padding: 50px 10px;
+	padding: 220px 40px;
 	max-width: 50%;
 }
 
@@ -81,6 +81,12 @@ ul.show {
 li {
 	text-decoration: none;
 	text-shadow: 2px 2px 10px black;
+	transition: all 0.2s ease-in-out;
+}
+
+li:hover {
+	transform: scale(1.1);
+	color: #ce2e3a;
 }
 
 h1 {
@@ -139,6 +145,17 @@ p {
 	padding: 10px 20px;
 	box-shadow: 1px 1px 12px black;
 	margin-top: 20px;
+	transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+	scale: (1.1);
+	background-color: #ce2e3a;
+	color: white;
+}
+
+.button a:hover {
+	color: white;
 }
 
 .dividingLine {
@@ -215,6 +232,7 @@ p {
 	margin-bottom: 50px;
 	color: white;
 	text-shadow: 2px 2px 10px black;
+	font-size: 2rem;
 }
 
 #projects {
@@ -244,6 +262,10 @@ a {
 	text-decoration: none;
 	color: white;
 	font-size: smaller;
+}
+
+a:hover {
+	color: #ce2e3a;
 }
 
 .hamburger {
@@ -312,6 +334,7 @@ a {
 	.information-photo img {
 		display: none;
 	}
+
 	.socials {
 		font-size: smaller;
 	}
@@ -356,12 +379,17 @@ a {
 		display: flex;
 		flex-direction: column;
 		height: 50vh;
+		margin-right: 10px;
 	}
 }
 
 @media only screen and (min-width: 160px) {
 	.project-container {
 		grid-template-columns: auto;
+	}
+
+	.information {
+		padding: 50px 30px;
 	}
 }
 
@@ -400,6 +428,13 @@ a {
 	padding: 10px;
 	border-radius: 30px;
 	box-shadow: 4px 4px 30px black;
+	transition: all 0.2s ease-in-out;
+}
+
+.button-info:hover {
+	transform: scale(1.2);
+	background-color: #ce2e3a;
+	color: white;
 }
 
 #about-me {
