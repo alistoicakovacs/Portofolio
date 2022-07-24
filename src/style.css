@@ -47,6 +47,10 @@ section {
 	align-items: center;
 }
 
+.socials-mobile {
+	display: none;
+}
+
 #contact-me {
 	display: flex;
 	justify-content: center;
@@ -136,6 +140,10 @@ p {
 	margin-top: 20px;
 }
 
+.dividingLine {
+	display: none;
+}
+
 .subscribe {
 	font-size: 20px;
 	align-items: center;
@@ -208,12 +216,6 @@ p {
 #projects {
 	background-color: #3a3b46;
 }
-@media only screen and (max-width: 1000px) {
-	.project-container {
-		display: grid;
-		grid-template-columns: auto auto;
-	}
-}
 
 .project-image {
 	margin-top: 25px;
@@ -247,6 +249,16 @@ a {
 }
 
 @media only screen and (max-width: 1000px) {
+	.project-container {
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+
+	.dividingLine {
+		display: block;
+		margin: 0 40%;
+	}
+
 	.hamburger {
 		display: block;
 		border: 0;
@@ -333,6 +345,12 @@ a {
 		font-size: 10px;
 		margin-bottom: 10px;
 	}
+
+	.socials-mobile {
+		display: flex;
+		flex-direction: column;
+		height: 50vh;
+	}
 }
 
 @media only screen and (min-width: 160px) {
@@ -341,7 +359,10 @@ a {
 	}
 }
 
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 380px) {
+	body {
+		width: 100vw;
+	}
 	.project-container {
 		grid-template-columns: auto auto;
 	}
@@ -373,10 +394,6 @@ a {
 	padding: 10px;
 	border-radius: 30px;
 	box-shadow: 4px 4px 30px black;
-}
-
-.dividingLine {
-	margin: 0 40%;
 }
 
 #about-me {
