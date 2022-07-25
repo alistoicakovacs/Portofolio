@@ -487,3 +487,8 @@ a:hover {
   box-shadow: 4px 4px 30px black;
   align-self: flex-start;
 }
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
